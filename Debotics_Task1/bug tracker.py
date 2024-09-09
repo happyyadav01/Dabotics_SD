@@ -12,7 +12,7 @@ class BugTracker:
         self.bugs = {}
         self.counter = 1
     
-    # Add a new bug
+    
     def log_bug(self, description, assigned_to):
         bug = Bug(self.counter, description, assigned_to)
         self.bugs[self.counter] = bug
